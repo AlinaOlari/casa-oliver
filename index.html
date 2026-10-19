@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casa Oliver — Gura Humorului, Suceava</title>
+<meta name="description" content="Casa Oliver, casă de vacanță autentică în Gura Humorului, județul Suceava. Vezi adresa, numărul de telefon și anunțul de pe Airbnb.">
+<style>
+  :root{
+    --bg:#faf6f0;
+    --bg-card:#ffffff;
+    --text:#2e2a24;
+    --muted:#6b6459;
+    --accent:#a8643a;
+    --accent-dark:#814c2b;
+    --border:#e7ddd0;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Georgia","Iowan Old Style",serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+  }
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:32px 20px 64px;
+  }
+  header{
+    text-align:center;
+    margin-bottom:28px;
+  }
+  header .eyebrow{
+    font-family:system-ui,-apple-system,sans-serif;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    font-size:12px;
+    color:var(--accent);
+    font-weight:600;
+  }
+  h1{
+    font-size:clamp(28px,6vw,40px);
+    margin:8px 0 4px;
+    color:var(--accent-dark);
+  }
+  .subtitle{
+    color:var(--muted);
+    font-size:16px;
+    margin:0;
+  }
+  .card{
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:22px 24px;
+    margin-bottom:20px;
+  }
+  .card h2{
+    font-family:system-ui,-apple-system,sans-serif;
+    font-size:14px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin:0 0 10px;
+  }
+  .intro p{
+    margin:0;
+    font-size:17px;
+  }
+  .contact-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-family:system-ui,-apple-system,sans-serif;
+    font-weight:600;
+    font-size:16px;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:999px;
+    color:#fff;
+    background:var(--accent);
+    transition:background .15s ease;
+  }
+  .btn:hover{background:var(--accent-dark);}
+  .btn.secondary{
+    background:transparent;
+    color:var(--accent-dark);
+    border:1.5px solid var(--accent);
+  }
+  .btn.secondary:hover{background:var(--border);}
+  .address{
+    font-size:16px;
+    margin:0 0 14px;
+  }
+  .map{
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid var(--border);
+  }
+  .map iframe{
+    width:100%;
+    height:280px;
+    border:0;
+    display:block;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-family:system-ui,-apple-system,sans-serif;
+    font-size:13px;
+    margin-top:24px;
+  }
+  footer a{color:var(--accent-dark);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Casă de vacanță · Gura Humorului</div>
+    <h1>Casa Oliver</h1>
+    <p class="subtitle">Casă părintească autentică, disponibilă pentru sejururi prin Airbnb</p>
+  </header>
+
+  <div class="card intro">
+    <h2>Despre casă</h2>
+    <p>
+      Casa Oliver este casa părintească a familiei, situată în Gura Humorului,
+      județul Suceava. Pentru rezervări și detalii despre disponibilitate,
+      poți contacta direct proprietarul sau vedea anunțul complet pe Airbnb.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <div class="contact-row">
+      <a class="btn" href="tel:+40740298859">📞 +40 740 298 859</a>
+      <a class="btn secondary" href="https://www.airbnb.com/" target="_blank" rel="noopener">Vezi pe Airbnb</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Locație</h2>
+    <p class="address">Strada Ciprian Porumbescu, nr. 34, Gura Humorului, județul Suceava</p>
+    <div class="map">
+      <iframe
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Strada+Ciprian+Porumbescu+34+Gura+Humorului+Suceava&output=embed">
+      </iframe>
+    </div>
+  </div>
+
+  <footer>
+    Casa Oliver · Gura Humorului, Suceava
+  </footer>
+
+</div>
+</body>
+</html>
